@@ -209,9 +209,4 @@ model_complexity_backward_selection = get_complexity(backward)
 
 ## Part 3
 
-Our predicted sale price was 29513.22. This was determined using important
-factors such as lot area and size, exterior quality, condition of the home, basement finish,
-location, and other key components in predicting sale price. Generally, factors like these
-are taken into account when selling a house, therefore, our prediction should be mostly
-accurate. We are confident that our group’s prediction will be among the lowest because
-of how close our value (29513.22) is compared to the minimum RMSE value of 25000.
+The model above was achieved through a combination of the list of complexity models and using get_rmse on the train and test datasets. We are confident that our group’s prediction will be among the lowest RMSE values because of the thorough testing methods employed.
