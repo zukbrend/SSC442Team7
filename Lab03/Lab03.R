@@ -175,20 +175,3 @@ backward <- lm(formula = SalePrice ~ Neighborhood + GrLivArea + BsmtQual +
 train_rmse_backward_selection = get_rmse(backward, train_data, "SalePrice")
 test_rmse_backward_selection = get_rmse(backward, test_data, "SalePrice")
 model_complexity_backward_selection = get_complexity(backward)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
