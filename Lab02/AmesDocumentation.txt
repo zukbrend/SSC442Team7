@@ -1,0 +1,71 @@
+Ames Data Documentation:
+
+MSSubClass: Classifies the type of property for sale.
+
+LotFrontage: The number of square feet connected to the property.
+
+LotArea: Lot size in square feet.
+
+OverallQual: Rating of the overall quality of the property.
+
+OverallCond: Rating of the overall condition of the property.
+
+YearBuilt: Year property was built.
+
+YearRemodAdd: Year of property remodel.
+
+BsmntFinSF1: Finished basement square footage (Type 1).
+
+BsmntFinSF2: Finished basement square footage (Type 2).
+
+BsmntUnfSF: Unfinished basement square footage.
+
+TotalBsmtSF: Total square footage of the basement.
+
+X1stFlrSF: First floor square footage.
+
+X2ndFlrSF: Second floor square footage.
+
+LowQualFinSF: Low quality finished square footage.
+
+GrLivArea: Ground living area square footage.
+
+BsmntFullBath: Basement full baths.
+
+BsmntHalfBath: Basement half baths.
+
+FullBath: Full baths above ground.
+
+HalfBath: Half baths above ground.
+
+BedroomAbvGr: Bedrooms above ground.
+
+KitchenAbvGr: Kitchens above ground.
+
+TotRmsAbvGrd: Total rooms above ground.
+
+Fireplaces: Number of fireplaces.
+
+GarageYrBlt: Year garage was built.
+
+GarageCars: Car capacity of garage.
+
+GarageArea: Garage square footage.
+
+WoodDeckSF: Wood deck square footage.
+
+OpenPorchSF: Open porch square footage.
+
+EnclosedPorch: Enclosed porch square footage.
+
+X3SsnPorch: Three season porch square footage.
+
+ScreenPorch: Screen porch square footage.
+
+PoolArea: Pool area in square feet.
+
+MoSold: Month sold (MM).
+
+YrSold: Year sold (YYYY).
+
+SalePrice: Sale price of the property.
