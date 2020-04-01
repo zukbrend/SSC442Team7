@@ -111,7 +111,16 @@ spam_tst_over = ifelse(predict(fit_over, spam_tst) > 0,
 conf_mat_over = make_conf_mat(predicted = spam_tst_over, actual = spam_tst$type)
 
 ### 4 ###
-# This part is up to you guys
+# We determined that the fit_additive model is the best. We know that based on the rankings, 
+# overfit models will have lower training error and high testing error as opposed to underfit 
+# models which have both high testing and training error. Although having lower testing error 
+# would provide more reliable predictions when applied to unexposed data, having a low training 
+# error still helps increase testing accuracy.
+# Sensitivity is the true positive rate, while specificity  is the true negative rate. Here, 
+# sensitivity refers to nonspam ending up as spam, while specificity refers to spam ending up 
+# an nonspam. As a result, we decided that the fit_additive model would be the best option. 
+
+
 ################################################################################
 
 ################################## Excersise 2 #################################
@@ -134,7 +143,12 @@ bank_fit <- glm(
 cv.glm(bank_trn, bank_fit, K = 10)$delta[1]
 
 ### 3 ###
-# This part is up to you guys
+# Based on our model, age has a positive coefficient. This means that older individuals are more 
+# likely to have y = yes. Housing also has a positive coefficient. This means that individuals 
+# with housing or homeowners are more likely to have y = yes. Loan has a positive coefficient. 
+# This implies that individuals that took out loans are more likely to have y = yes. Finally, 
+# education has a positive coefficient. This suggests that individuals with some education 
+# level are more likely to have y = yes. 
 
 ### 4 ###
 bank_tst_pred = ifelse(
